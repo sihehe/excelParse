@@ -62,7 +62,7 @@ public class FileUploadServiceTest {
         headers.setContentType(MediaType.APPLICATION_JSON);
 //        JSONObject map = new JSONObject();
         HashMap map = new HashMap();
-        String accessToken = this.getAccessToken("wx53aef9660248ffd9", "59e145ea0e0beae092f4a91486d06166");
+        String accessToken = "";
 //        map.put("access_token",accessToken);
         map.put("scene","sku=X18H7041009&sysId=123");
         map.put("page","pages/detail/fittingDetail");
