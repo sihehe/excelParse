@@ -36,7 +36,7 @@ public class ExcelParseUtils {
 
 
     public static void main(String[] args) throws Exception {
-        File file = new File("f://SECEND_TYPE.xlsx");
+        File file = new File("f://aa.xls");
         JSONArray jsonArray = readExcel(file);
         String str = jsonArray.toString();
         System.out.println(str);
